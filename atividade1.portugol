@@ -1,0 +1,53 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 26/05/2022
+Var
+// Seção de Declarações das variáveis 
+valor1,valor2,valor3,valor4,valor5,media1,media2,x: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ Escreval("###################################")
+Escreval("Período 1!")
+Escreval("Escrea a sua nota da dol")
+leia(valor1,valor2,valor3,valor4,valor5)
+
+media1 <- (valor1+valor2+valor3+valor4+valor5)/5
+
+se media1>=7 entao
+   escreval("Passou para o período 2")
+senao
+     escreval("Esta na recuperação")
+fimse
+    faça(media1 >= 7)
+    x <- media1
+    media1 <- valor1+valor2+valor3+valor4+valor5
+    escreval("Seus pontos total: ", media1, " ")
+Escreval("###################################")
+
+Escreval("Período 2!")
+Escreval("Escrea a sua nota da dol")
+
+
+
+leia(valor1,valor2,valor3,valor4,valor5)
+
+media2 <- (valor1+valor2+valor3+valor4+valor5)/5
+
+se media2>=7 entao
+   escreval("Passou para o período 3")
+senao
+     escreval("Esta na recuperação")
+fimse
+
+ Escreval("###################################")
+    faça(media1 >= 7)
+    x <- media1
+    media1 <- valor1+valor2+valor3+valor4+valor5
+    escreval("Seus pontos total: ", media1, " ")
+
+
+Fimalgoritmo
